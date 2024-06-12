@@ -1,0 +1,154 @@
+h1{
+    font-family: cursive;
+    text-align: center;
+    color: #371f76;
+    font-size: 50px;
+}
+.title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    color: #371f76;
+    font-size: 40px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol{
+    list-style-type: circle;
+}
+.boboli-img:nth-child(odd) img{
+    border: 3px solid #52307c;
+    border-radius: 15px;
+    padding: 3px;
+}
+.boboli-img:nth-child(even) img{
+    border: 3px dotted #52307c;
+    border-radius: 15px;
+    padding: 3px;
+}
+.ponte{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.david{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.api{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.cupola{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.boboli{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.boboli-img{
+    display: inline;
+}
+.cibo{
+    float: left;
+    width: 30%;
+    display: inline;
+    margin: 0;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    color: black;
+}
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    font-size: 26px;
+}
+nav ul{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #b491c8;
+    margin-block-start: 0;
+margin-block-end: 0;
+padding-inline-start: 0;
+}
+.altro{
+    display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 20px;
+}
+.one {
+    position: absolute;
+    left: -9999px;
+    z-index: 999;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    opacity: 0;
+  }
+  .one:focus {
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+  }
+
+a.two:link, a.two:visited{
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 25px;
+    color: white;
+    
+}
+
+a.two:hover, a.two:active{
+    background-color: #52307c;
+}
+nav li{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 20px;
+    display: inline;
+    float: left;
+}
+.img{
+    float: right;
+    width: 25%;
+    
+}
+
+div a:hover{
+    font-size: 25px;
+}
+ul.curiosita{
+    list-style-type: square;
+    
+}
+
+.home{
+    
+    float: left;
+    width: 75%;
+}
+.dante{
+    display: inline;
+    margin: 0;
+}
+
+.dante img{
+    width: 30%;
+    border-radius: 15px;
+    border: 3px solid #52307c;
+    padding: 3px;
+}
